@@ -4,9 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SurveyTest"
+        xmlns:Views="clr-namespace:SurveyTest.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None" DataContext="{Binding Source={StaticResource Locator}, Path=Main}">
     <Grid>
-        
+        <Views:Page1 x:Name="Page1View" Visibility="Visible"></Views:Page1>
     </Grid>
 </Window>
